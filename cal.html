@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tip Calculator</title>
+`    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="cal.css">
+  </head>
+  <body >
+   
+    <div class="content">
+      
+
+            <div >
+
+              <div class="text">Tip Calculator</div>
+              
+              <form id="tip-form">
+                <div >
+                  <div >
+                    <i class="fa-duotone fa-indian-rupee-sign" style="--fa-primary-color: #23cd5b; --fa-secondary-color: #23cd5b;"></i>
+                    <input type="number"  id="billTotal" placeholder="Total Bill">
+                  </div>
+                </div>
+                
+                <div >
+                  <div >
+                    <label  ><h1> Tip </h1> </label>
+                    <input for="" type="range"  id="tipInput" value="0" for="">
+                    <span  id="tipOutput"></span>
+                  </div>
+                </div>
+              </form>
+              <!-- <hr> -->
+  
+              <!-- RESULTS -->
+              <div id="results" >
+                <h1 style="color:burlywood;font-weight: bolder;">Results</h1>
+                <div >
+                    <h1 >Tip amount</h1>
+                    <input type="number"  id="tipAmount" disabled>
+                </div>
+                <div >
+                    <h2 class="input-group-addon">Total Bill with Tip</h2>
+                    <input type="number"  id="totalBillWithTip" disabled>
+                </div>
+              </div>
+            </div>
+      
+    </div>
+   
+   <script src="cal.js"></script>
+  </body>
+</html>
